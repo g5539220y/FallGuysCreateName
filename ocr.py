@@ -96,7 +96,7 @@ def orc_core(on, tw, thr, times):
 
 def setUI():
     msg = "方框里写，别瞎写，写错了电脑死机"
-    title = "铁蛇专用起名器"
+    title = "Fall Guys 专用起名器"
     fieldNames = ["第一段名字", "第二段名字", "第三段名字"]
     fieldValues = []
     fieldValues = g.multenterbox(msg, title, fieldNames)
