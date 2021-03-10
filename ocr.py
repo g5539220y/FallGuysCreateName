@@ -105,7 +105,7 @@ def setUI():
             break
         errmsg = ""
         if fieldValues[0].strip() == "" and fieldValues[1].strip() == "" and fieldValues[2].strip() == "":
-            errmsg += "啥也不写，你起个几把"
+            errmsg += "未检测到名字"
         if errmsg == "":
             break
         fieldValues = g.multenterbox(errmsg, title, fieldNames, fieldValues)
